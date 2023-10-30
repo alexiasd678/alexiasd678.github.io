@@ -41,6 +41,9 @@
           <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon staruml-icon icon-Project'></span>Untitled</a></span>
         
           <span>::</span>
+          <span class="label label-info"><a href='32f5fb8055e108ac026b8f4cc4103b34.html'><span class='node-icon staruml-icon icon-UMLPackage'></span>Alexia Setien Diez</a></span>
+        
+          <span>::</span>
           <span class="label label-info"><a href='d09d2fce54a15524275242f776c92c01.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Alexia Setien - Diagrama de clases</a></span>
         
           <span>::</span>
@@ -90,9 +93,9 @@
     <h3>Specialized Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='a34d0b79c5d9663e07d4a9da53bfd0a6.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Demandante</a></li>
+        <li><a href='1f32029e5779cb45ca0ded7abb55d070.html'><span class='node-icon staruml-icon icon-UMLClass'></span>OfertaIndividual</a></li>
         
-        <li><a href='3076a0b5c2a4bfbe9c0c5b799d8b9de8.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Grupo</a></li>
+        <li><a href='6bab5c5d1554cd867994c63b62314647.html'><span class='node-icon staruml-icon icon-UMLClass'></span>OfertaGrupo</a></li>
         
     </ul>
 </section>
@@ -170,6 +173,20 @@
           <tr>
             <td>public</td>
             <td><a href="dcf36252aadaf33882aacfcb8a9d2fc8.html">precio</a></td>
+            <td>float </td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="a7f147352a02653282600d8346d92c49.html">idContraoferta</a></td>
+            <td><span class='label label-info'>none</span> </td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="3c3f0cd3267698347ac94071941564fd.html">estado</a></td>
             <td><span class='label label-info'>none</span> </td>
             <td></td>
           </tr>
@@ -385,11 +402,11 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='1cb69d0b81da289aa2d433d2e14720db.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Demandante→Contraoferta)</a></li>
-        
-        <li><a href='734aa3497afec46057fade1246dedc1c.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Grupo→Contraoferta)</a></li>
-        
         <li><a href='710c8f873c6875217aec4074f93f50a5.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Contraoferta—Oferta)</a></li>
+        
+        <li><a href='404c286dfb14b7bc3a225042eb3d292d.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(OfertaIndividual→Contraoferta)</a></li>
+        
+        <li><a href='3fd0d349e295414288a41dc43f612d5c.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(OfertaGrupo→Contraoferta)</a></li>
         
     </ul>
 </section>
