@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Untitled</title>
+    <title>Balanceador de carga</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -19,15 +19,17 @@
 
       <!-- Name Title -->
 
-      <h1>Untitled</h1>
+      <h1>Balanceador de carga</h1>
 
       <!-- Type and Stereotype -->
 
       <section style="margin-top: .5em;">
         <span class="alert alert-info">
-          <span class="node-icon staruml-icon icon-Project"></span>
-          Project
+          <span class="node-icon staruml-icon icon-UMLNode"></span>
+          UMLNode
         </span>
+        
+          <span style="margin-left: 10px" class="alert alert-info">«device»</span>
         
       </section>
 
@@ -39,6 +41,12 @@
         
           
           <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon staruml-icon icon-Project'></span>Untitled</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='5b8fee5a977fc0f2058e7cd5f6050a53.html'><span class='node-icon staruml-icon icon-UMLPackage'></span>Despliegue</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='59767ceadfb8a6745b2dbfd385f9dee8.html'><span class='node-icon staruml-icon icon-UMLNode'></span>«device»Balanceador de carga</a></span>
         
       </section>
 
@@ -74,6 +82,26 @@
       <!-- Classifier -->
 
       
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+      
 
       <!-- Interface -->
 
@@ -84,6 +112,10 @@
       
 
       <!-- Node -->
+
+      
+        
+        
 
       
 
@@ -207,7 +239,7 @@
     
     <tr>
         <td>name</td>
-        <td>Untitled</td>
+        <td>Balanceador de carga</td>
     </tr>
     
     
@@ -221,8 +253,8 @@
     
     
     <tr>
-        <td>author</td>
-        <td></td>
+        <td>stereotype</td>
+        <td>device</td>
     </tr>
     
     
@@ -230,8 +262,27 @@
     
     
     <tr>
-        <td>company</td>
-        <td></td>
+        <td>visibility</td>
+        <td>public</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>isAbstract</td>
+        <td><span class='label label-info'>false</span></td>
     </tr>
     
     
@@ -239,8 +290,8 @@
     
     
     <tr>
-        <td>copyright</td>
-        <td></td>
+        <td>isFinalSpecialization</td>
+        <td><span class='label label-info'>false</span></td>
     </tr>
     
     
@@ -248,8 +299,8 @@
     
     
     <tr>
-        <td>version</td>
-        <td></td>
+        <td>isLeaf</td>
+        <td><span class='label label-info'>false</span></td>
     </tr>
     
     
@@ -265,11 +316,36 @@
       <!-- Constraints, Dependencies, Dependants -->
 
       
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+      
 
       <!-- Relationships -->
 
       
       
+<section class="element-list">
+    <h3>Relationships</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='20f0b456c5757b23d297ebac904600c3.html'><span class='node-icon staruml-icon icon-UMLCommunicationPath'></span>(Cliente Web—Balanceador de carga)</a></li>
+        
+        <li><a href='917098fc6a3be54d82b1973ea99e07df.html'><span class='node-icon staruml-icon icon-UMLCommunicationPath'></span>(Cliente Movil—Balanceador de carga)</a></li>
+        
+        <li><a href='32ab3d9314b7b9db116bbce6f852e3d3.html'><span class='node-icon staruml-icon icon-UMLCommunicationPath'></span>(Balanceador de carga—Servidor)</a></li>
+        
+    </ul>
+</section>
+
 
 
       <!-- Owned Elements -->
@@ -280,17 +356,7 @@
     <h3>Owned Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='9fbf26ac1e7d777d38fa58680daabd82.html'><span class='node-icon staruml-icon icon-UMLPackage'></span>Olimpia Cobo Renedo</a></li>
-        
-        <li><a href='ac2ab52b76d810e5ac9dbc0d4db7c86d.html'><span class='node-icon staruml-icon icon-UMLPackage'></span>Abdul Elshebawy</a></li>
-        
-        <li><a href='32f5fb8055e108ac026b8f4cc4103b34.html'><span class='node-icon staruml-icon icon-UMLPackage'></span>Alexia Setien Diez</a></li>
-        
-        <li><a href='ef201cd5aeaf0bbead783d34c5340354.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Diagrama de Componentes </a></li>
-        
-        <li><a href='804032e172b164013367817b37eaaa42.html'><span class='node-icon staruml-icon icon-UMLModel'></span>David Edmundo</a></li>
-        
-        <li><a href='5b8fee5a977fc0f2058e7cd5f6050a53.html'><span class='node-icon staruml-icon icon-UMLPackage'></span>Despliegue</a></li>
+        <li><a href='32ab3d9314b7b9db116bbce6f852e3d3.html'><span class='node-icon staruml-icon icon-UMLCommunicationPath'></span>(Balanceador de carga—Servidor)</a></li>
         
     </ul>
 </section>

@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Untitled</title>
+    <title></title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -19,15 +19,17 @@
 
       <!-- Name Title -->
 
-      <h1>Untitled</h1>
+      <h1>(unnamed)</h1>
 
       <!-- Type and Stereotype -->
 
       <section style="margin-top: .5em;">
         <span class="alert alert-info">
-          <span class="node-icon staruml-icon icon-Project"></span>
-          Project
+          <span class="node-icon staruml-icon icon-UMLDependency"></span>
+          UMLDependency
         </span>
+        
+          <span style="margin-left: 10px" class="alert alert-info">«manifest»</span>
         
       </section>
 
@@ -39,6 +41,15 @@
         
           
           <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon staruml-icon icon-Project'></span>Untitled</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='5b8fee5a977fc0f2058e7cd5f6050a53.html'><span class='node-icon staruml-icon icon-UMLPackage'></span>Despliegue</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='1dd4d0afb2681933a05df7063b4cba96.html'><span class='node-icon staruml-icon icon-UMLArtifact'></span>vista.war</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='9cd6802ed67e3d48a520293ca549f15b.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(vista.war→Vista Anonimo)</a></span>
         
       </section>
 
@@ -65,6 +76,25 @@
 
       <!-- Directed Relationship -->
 
+      
+      <section class="element-list">
+        <table width="100%">
+          <tr>
+            <td width="50%">
+              <h3>Source</h3>
+              <ul class="nav nav-list">
+                <li><a href='1dd4d0afb2681933a05df7063b4cba96.html'><span class='node-icon staruml-icon icon-UMLArtifact'></span>vista.war</a></a></li>
+              </ul>
+            </td>
+            <td width="50%">
+              <h3>Target</h3>
+              <ul class="nav nav-list">
+                <li><a href='f19b7ef910381732e9fe287a0485e6b3.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Vista Anonimo</a></a></li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </section>
       
 
       <!-- Undirected Relationship -->
@@ -207,21 +237,6 @@
     
     <tr>
         <td>name</td>
-        <td>Untitled</td>
-    </tr>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <tr>
-        <td>author</td>
         <td></td>
     </tr>
     
@@ -229,9 +244,15 @@
     
     
     
+    
+    
+    
+    
+    
+    
     <tr>
-        <td>company</td>
-        <td></td>
+        <td>source</td>
+        <td><a href='1dd4d0afb2681933a05df7063b4cba96.html'><span class='node-icon staruml-icon icon-UMLArtifact'></span>vista.war</a></td>
     </tr>
     
     
@@ -239,8 +260,8 @@
     
     
     <tr>
-        <td>copyright</td>
-        <td></td>
+        <td>target</td>
+        <td><a href='f19b7ef910381732e9fe287a0485e6b3.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Vista Anonimo</a></td>
     </tr>
     
     
@@ -248,7 +269,25 @@
     
     
     <tr>
-        <td>version</td>
+        <td>stereotype</td>
+        <td>manifest</td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>visibility</td>
+        <td>public</td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>mapping</td>
         <td></td>
     </tr>
     
@@ -276,25 +315,6 @@
 
       
       
-<section class="element-list">
-    <h3>Owned Elements</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='9fbf26ac1e7d777d38fa58680daabd82.html'><span class='node-icon staruml-icon icon-UMLPackage'></span>Olimpia Cobo Renedo</a></li>
-        
-        <li><a href='ac2ab52b76d810e5ac9dbc0d4db7c86d.html'><span class='node-icon staruml-icon icon-UMLPackage'></span>Abdul Elshebawy</a></li>
-        
-        <li><a href='32f5fb8055e108ac026b8f4cc4103b34.html'><span class='node-icon staruml-icon icon-UMLPackage'></span>Alexia Setien Diez</a></li>
-        
-        <li><a href='ef201cd5aeaf0bbead783d34c5340354.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Diagrama de Componentes </a></li>
-        
-        <li><a href='804032e172b164013367817b37eaaa42.html'><span class='node-icon staruml-icon icon-UMLModel'></span>David Edmundo</a></li>
-        
-        <li><a href='5b8fee5a977fc0f2058e7cd5f6050a53.html'><span class='node-icon staruml-icon icon-UMLPackage'></span>Despliegue</a></li>
-        
-    </ul>
-</section>
-
 
 
       <!-- Image Map Resizer (https://github.com/davidjbradshaw/image-map-resizer) -->
